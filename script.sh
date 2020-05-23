@@ -1,0 +1,1 @@
+for i in {1..25}; do ping -c1 www.google.com &> /dev/null && break; sleep 0.5; done
